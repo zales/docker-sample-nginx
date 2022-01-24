@@ -15,7 +15,7 @@ variables:
   containerRegistry: 'demo1555.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
-  azureSubscription: 'Microsoft Azure Sponsorship'
+  azureSubscription: 'b77a01cf-69e5-4d5a-a506-ea088594f3e9'
   appName: 'demo11555'
 
   # Agent VM image name
