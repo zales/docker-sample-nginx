@@ -15,8 +15,8 @@ variables:
   containerRegistry: 'demo1555.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
-  azureSubscription: Microsoft Azure Sponsorship
-  appName: demo11555
+  azureSubscription: 'Microsoft Azure Sponsorship'
+  appName: 'demo11555'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
