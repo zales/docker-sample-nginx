@@ -10,8 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  # dockerRegistryServiceConnection: '157383ce-4192-461b-9fc9-f2c822dc8948'
-  dockerRegistryServiceConnection: 'f8e883b2-553d-4489-8bd5-e0d86602a353'
+  dockerRegistryServiceConnection: '1d7d3858-d3e1-44cb-9b82-441b913c746b'
   imageRepository: 'zalesdockersamplenginx'
   containerRegistry: '777demozalesky.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
