@@ -9,14 +9,14 @@ resources:
 - repo: self
 
 variables:
-  # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '157383ce-4192-461b-9fc9-f2c822dc8948'
-  imageRepository: 'devopsnginx'
-  containerRegistry: 'demo1555.azurecr.io'
+   # Container registry service connection established during pipeline creation
+  dockerRegistryServiceConnection: '4d5e186f-d457-4281-986a-fab88351e111'
+  imageRepository: 'zalesdockersamplenginx'
+  containerRegistry: '777demozalesky.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
   azureSubscription: 'b77a01cf-69e5-4d5a-a506-ea088594f3e9'
-  appName: 'demo11555'
+  appName: '777demoAPP'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
