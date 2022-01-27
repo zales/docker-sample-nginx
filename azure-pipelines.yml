@@ -42,6 +42,7 @@ stages:
 - stage: Deploy
   displayName: Deploy docker to WebApp
   jobs:
+    - job: Deploy
     - task: AzureWebAppContainer@1
       displayName: 'Azure Web App on Container Deploy'
       inputs:
