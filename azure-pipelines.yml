@@ -54,7 +54,8 @@ stages:
       inputs:
         kubernetesServiceConnection: 777demozaleskyp
         namespace: test
-        containers: $(containerRegistry)/$(imageRepository):$(tag)
+        containers: |
+          $(containerRegistry)/$(imageRepository):$(tag)
         manifests: |
           ubuntu.yaml
       #    - task: AzureWebAppContainer@1
